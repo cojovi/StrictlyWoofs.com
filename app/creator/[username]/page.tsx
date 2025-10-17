@@ -93,6 +93,21 @@ const creators = {
       { id: 2, title: 'Leg Workout', thumbnail: '/unnamed.png' },
       { id: 3, title: 'Arm Pump', thumbnail: '/unnamed.png' },
     ]
+  },
+  milomagic: {
+    name: 'Milo Magic',
+    username: 'milomagic',
+    image: '/ChatGPT_Image_Apr_17,_2025,_11_44_50_PM.png',
+    bio: 'Magical dog with incredible tricks and enchanting personality. Watch me perform amazing feats!',
+    followers: '89K',
+    posts: '156',
+    verified: true,
+    specialties: ['Magic Tricks', 'Entertainment', 'Comedy'],
+    recentPosts: [
+      { id: 1, title: 'Disappearing Act', thumbnail: '/ChatGPT_Image_Apr_17,_2025,_11_44_50_PM.png' },
+      { id: 2, title: 'Card Trick Master', thumbnail: '/ChatGPT_Image_Apr_17,_2025,_11_45_35_PM.png' },
+      { id: 3, title: 'Magic Show Spectacular', thumbnail: '/ChatGPT_Image_Apr_25,_2025,_09_33_26_PM.png' },
+    ]
   }
 }
 

@@ -50,8 +50,14 @@ export default function FeedPage() {
         <div className="space-y-8">
           {/* Sample feed items */}
           <div className="bg-white rounded-lg shadow-md overflow-hidden">
-            <div className="aspect-video bg-gray-200 flex items-center justify-center">
-              <p className="text-gray-500">Video Content Placeholder</p>
+            <div className="aspect-video bg-gray-200 overflow-hidden">
+              <Image
+                src="/bb85ecc0-632b-45a1-97af-987fa2d64f28.jpeg"
+                alt="Bella Swims swimming adventure"
+                width={800}
+                height={450}
+                className="w-full h-full object-cover"
+              />
             </div>
             <div className="p-6">
               <div className="flex items-center space-x-3 mb-3">
@@ -72,8 +78,14 @@ export default function FeedPage() {
           </div>
 
           <div className="bg-white rounded-lg shadow-md overflow-hidden">
-            <div className="aspect-video bg-gray-200 flex items-center justify-center">
-              <p className="text-gray-500">Video Content Placeholder</p>
+            <div className="aspect-video bg-gray-200 overflow-hidden">
+              <Image
+                src="/7f940b83-ea3f-46da-8761-d26dbc5d778c.jpeg"
+                alt="Bruno Milk morning routine"
+                width={800}
+                height={450}
+                className="w-full h-full object-cover"
+              />
             </div>
             <div className="p-6">
               <div className="flex items-center space-x-3 mb-3">
@@ -94,8 +106,14 @@ export default function FeedPage() {
           </div>
 
           <div className="bg-white rounded-lg shadow-md overflow-hidden">
-            <div className="aspect-video bg-gray-200 flex items-center justify-center">
-              <p className="text-gray-500">Video Content Placeholder</p>
+            <div className="aspect-video bg-gray-200 overflow-hidden">
+              <Image
+                src="/8292b600-75fe-4c57-a858-4c940e5d7b29.jpeg"
+                alt="Chloe Swims pool party"
+                width={800}
+                height={450}
+                className="w-full h-full object-cover"
+              />
             </div>
             <div className="p-6">
               <div className="flex items-center space-x-3 mb-3">
