@@ -97,13 +97,14 @@ const creators = {
 }
 
 interface PageProps {
-  params: {
+  params: Promise<{
     username: string
-  }
+  }>
 }
 
-export default function CreatorPage({ params }: PageProps) {
-  const creator = creators[params.username as keyof typeof creators]
+export default async function CreatorPage({ params }: PageProps) {
+  const { username } = await params
+  const creator = creators[username as keyof typeof creators]
 
   if (!creator) {
     notFound()
